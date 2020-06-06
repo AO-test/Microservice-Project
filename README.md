@@ -35,10 +35,13 @@ This project operationalized machine learning microservice using [kubernetes](ht
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+4. To upload the docker image to your Docker hub by running the script `upload_docker.sh`
+5. Create a directory `.circleci` and create a configuration file `config.yml` inside of it to integrate CircleCI
 
 ### Making prediction
 * Run Docker shell script on another terminal: `make_predictions.sh` To make house price predictions (example of expected output can be found in the `docker_out.txt` file)
 * Run Kubernetes shell script on another terminal: `make_predictions.sh` To make house price predictions (Example of expected output can be found in the`kubernetes_out.txt` file)
+ 
 
 
 ### Steps to run app in a local kubernetes cluster
