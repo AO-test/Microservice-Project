@@ -1,4 +1,3 @@
-<paste log output from Kubernetes-mediated prediction, here>
 NAME   READY   STATUS    RESTARTS   AGE
 app    1/1     Running   0          24m
 Forwarding from 127.0.0.1:8000 -> 80
