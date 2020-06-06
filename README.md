@@ -1,4 +1,6 @@
 <include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/josh-iCode/Microservice-Project.svg?style=svg)](https://circleci.com/gh/josh-iCode/Microservice-Project)
+
 
 ## Project Overview
 
